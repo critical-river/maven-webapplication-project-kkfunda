@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 Hello to KK FUNDA DEVOPS AWS Portal new batch is starting from june 28 which is night batch 🚀</h1>
+    <h1>🚀 Hello to KK FUNDA DEVOPS AWS Portal New Batch is starting in june 28 2026 🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 
