@@ -22,7 +22,7 @@ node {
     sh """
         curl -u kk:password \
         --upload-file /var/lib/jenkins/workspace/scripted-way-pipleline/target/maven-web-application.war \
-        "http://98.83.39.187:8080/manager/text/deploy?path=/maven-web-application&update=true"
+        "http://100.48.50.227:8080/manager/text/deploy?path=/maven-web-application&update=true"
     """
 }
 
