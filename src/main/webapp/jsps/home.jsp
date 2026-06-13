@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 Hello to KK FUNDA DEVOPS we are starting Azure devops on Auguest 15🚀</h1>
+    <h1>🚀 Hello to KK FUNDA DEVOPS we are starting Azure devops on Auguest 15 Night batch 7:00-9:30 PM🚀</h1>
     <h3>Training | Development | Consulting</h3>
 </header>
 
