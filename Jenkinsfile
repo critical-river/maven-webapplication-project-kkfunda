@@ -32,7 +32,7 @@
       sh """
 
       curl -u kk:password \
---upload-file /var/lib/jenkins/workspace/scripted-way-PL-1/target/maven-web-application.war \
+--upload-file /var/lib/jenkins/workspace/MBPL-webapp/target/maven-web-application.war \
 "http://16.112.192.134:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
