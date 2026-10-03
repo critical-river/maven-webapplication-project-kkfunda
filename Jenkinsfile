@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('git checkout'){
             steps{
-                  git branch: 'master', url: 'https://github.com/critical-river/maven-webapplication-project-kkfunda.git'
+                  git branch: 'QA', url: 'https://github.com/critical-river/maven-webapplication-project-kkfunda.git'
             }
         }
         stage('compile'){
