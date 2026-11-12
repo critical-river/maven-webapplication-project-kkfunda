@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0-SNAPSHOT</version>
 	
-	<name>maven-web-application1</name>
+	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project for B9</description>
 
