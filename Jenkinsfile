@@ -19,17 +19,17 @@ pipeline{
                 sh 'mvn clean package'
             }
         }
-        stage('SQ Report'){
+        /*stage('SQ Report'){
             steps{
                 sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar'
             }
-        }
+        }*/
         stage('deploy'){
             steps{
                 sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar deploy'
             }
         }
-        stage('Tomcat deployment'){
+       /* stage('Tomcat deployment'){
             steps{
                  sh """
 
@@ -39,7 +39,7 @@ pipeline{
           
         """
             }
-        }
+        }*/
     }
 } 
 
