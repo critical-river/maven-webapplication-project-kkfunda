@@ -26,7 +26,7 @@ pipeline{
         }*/
         stage('deploy'){
             steps{
-                sh 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar deploy'
+                sh 'mvn deploy'
             }
         }
        /* stage('Tomcat deployment'){
